@@ -46,7 +46,7 @@ dispatcher.onNewMessage(async (context) => {
   if (context.isOutgoing) return
   const hasMention = context.isMention || (context.text && config.userbot.regexps.some((regexp) => context.text.match(new RegExp(regexp))))
 
-  if (hasMention) {
+  if (hasMention && !config.userbot.ignoredIds.includes(context.sender.id)) {
     const me = await userbot.getMe()
     await mentionNotify(context, me)
   }

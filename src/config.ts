@@ -20,6 +20,7 @@ export default {
   },
   userbot: {
     regexps: env.get('USERBOT_REGEXPS').default('').asArray(';'),
+    ignoredIds: env.get('USERBOT_IGNORED_IDS').default('').asArray(';').map((id: string) => parseInt(id)),
   },
   bot: {
     token: env.get('BOT_TOKEN').required().asString(),
