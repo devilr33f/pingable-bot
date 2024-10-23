@@ -17,7 +17,7 @@
     "build": "tsc && tsc-alias",
     "dev": "cross-env NODE_ENV=development tsx ./src/index.ts",
     "lint": "eslint --debug -c eslint.config.mjs .",
-    "prepare": "husky",
+    "prepare": "husky || true",
     "start": "cross-env NODE_ENV=production node ./dist/index.js",
     "commitlint": "commitlint --edit"
   },
