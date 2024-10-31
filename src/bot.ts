@@ -31,6 +31,9 @@ export const bot = new TelegramClient({
   apiHash: config.mtcute.apiHash,
   enableErrorReporting: true,
   storage: './storage/bot.storage',
+  initConnectionOptions: {
+    deviceModel: 'Pingable Bot',
+  },
 })
 
 export const userbot = new TelegramClient({
@@ -38,6 +41,9 @@ export const userbot = new TelegramClient({
   apiHash: config.mtcute.apiHash,
   enableErrorReporting: true,
   storage: './storage/userbot.storage',
+  initConnectionOptions: {
+    deviceModel: 'Pingable Bot',
+  },
 })
 
 const dispatcher = Dispatcher.for(userbot)
