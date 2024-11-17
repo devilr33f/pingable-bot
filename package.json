@@ -43,9 +43,9 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@mtcute/dispatcher": "^0.17.2",
-    "@mtcute/html-parser": "^0.17.1",
-    "@mtcute/node": "^0.17.0",
+    "@mtcute/dispatcher": "^0.17.0-fuman-alpha.6",
+    "@mtcute/html-parser": "^0.17.0-fuman-alpha.6",
+    "@mtcute/node": "^0.17.0-fuman-alpha.6",
     "common-tags": "^1.8.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
