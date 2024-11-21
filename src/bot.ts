@@ -5,20 +5,20 @@ import { html, TelegramClient } from '@mtcute/node'
 
 import config from '@/config.js'
 
-const makeChatLink = (chat: Peer | Chat) => {
-  if (chat.username) return `tg://resolve?domain=${chat.username}`
+const makeChatMention = (chat: Peer | Chat) => {
+  if (chat.username) return html`<a href="tg://resolve?domain=${chat.username}">${chat.displayName || 'unknown chat'}</a>`
 
   const isGroup = (chat as Chat).chatType && !['bot', 'channel', 'group', 'private'].includes((chat as Chat).chatType)
 
-  if (isGroup) return `https://t.me/c/${(chat.id + 1e12) * -1}`
-  if ((chat as Chat).chatType !== 'group') return `tg://user?id=${chat.id}`
+  if (isGroup) return html`<a href="https://t.me/c/${(chat.id + 1e12) * -1}">${chat.displayName || 'unknown chat'}</a>`
+  if ((chat as Chat).chatType !== 'group') return html`<a href="tg://user?id=${chat.id}">${chat.displayName}</a>`
 
-  return '' // @note: if chat type is "group" and it doesn't have username
+  return 'group without username' // @note: if chat type is "group" and it doesn't have username
 }
 
 export const mentionNotify = (context: MessageContext, me: User) => {
   const message = html`
-    <a href="${makeChatLink(context.sender)}">${`${context.sender.displayName}`}</a> mentioned <a href="${makeChatLink(me)}">${me.displayName}</a> in <a href="${makeChatLink(context.chat)}">${`${context.chat.title}`}</a>
+    ${makeChatMention(context.sender)} mentioned ${makeChatMention(me)} in ${makeChatMention(context.chat)}
   `
 
   bot.sendText(config.bot.chatId, message, {
@@ -49,7 +49,7 @@ export const userbot = new TelegramClient({
 const dispatcher = Dispatcher.for(userbot)
 
 dispatcher.onNewMessage(async (context) => {
-  if (context.isOutgoing) return
+  if (context.isOutgoing || context.chat.chatType === 'bot') return
   const hasMention = context.isMention || (context.text && config.userbot.regexps.some((regexp) => context.text.match(new RegExp(regexp))))
 
   if (hasMention && !config.userbot.ignoredIds.includes(context.sender.id)) {
