@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@mtcute/dispatcher':
-        specifier: ^0.17.0-fuman-alpha.6
-        version: 0.17.0-fuman-alpha.6
+        specifier: ^0.17.0-fuman-alpha.8
+        version: 0.17.0-fuman-alpha.8
       '@mtcute/html-parser':
-        specifier: ^0.17.0-fuman-alpha.6
-        version: 0.17.0-fuman-alpha.6
+        specifier: ^0.17.0-fuman-alpha.8
+        version: 0.17.0-fuman-alpha.8
       '@mtcute/node':
-        specifier: ^0.17.0-fuman-alpha.6
-        version: 0.17.0-fuman-alpha.6
+        specifier: ^0.17.0-fuman-alpha.8
+        version: 0.17.0-fuman-alpha.8
       common-tags:
         specifier: ^1.8.2
         version: 1.8.2
@@ -345,17 +345,21 @@ packages:
     resolution: {integrity: sha512-MfluB7EUfxXtv3i/++oh89uzAr4PDI4nn201hsp+qaXqsjAWzinlZEHEfPgAX4doIlKvPG/i0A9dpKxOLII8yA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fuman/io@0.0.1':
-    resolution: {integrity: sha512-CHMOH2btU7FiIJvjv1Uu31+KiRU1Il4dcmN5QL+udaOoR37ZJIsFAmFjv/lqKAkltnj/2XI68L/KPi8s0PPYlA==}
+  '@fuman/io@https://pkg.pr.new/teidesu/fuman/@fuman/io@a3f52dc':
+    resolution: {tarball: https://pkg.pr.new/teidesu/fuman/@fuman/io@a3f52dc}
+    version: 0.0.1
 
-  '@fuman/net@0.0.1':
-    resolution: {integrity: sha512-rPXOrZYPzOGLCrm3C1o+nRyL5UsQFMbVcgIW6M783SgzNjSutjiF/gL/Zvx84vnbRleFE8BRSf7lcfF5zPLdQQ==}
+  '@fuman/net@https://pkg.pr.new/teidesu/fuman/@fuman/net@a3f52dc':
+    resolution: {tarball: https://pkg.pr.new/teidesu/fuman/@fuman/net@a3f52dc}
+    version: 0.0.1
 
-  '@fuman/node@0.0.1':
-    resolution: {integrity: sha512-V/MNkRGBElAcTr4v2DBnxDn99AfG7hZnBl183narj/q2uYBjP/T8aN5BIeIJXK+Mqj+r5JZQhTw6z1hDSqXDFQ==}
+  '@fuman/node@https://pkg.pr.new/teidesu/fuman/@fuman/node@a3f52dc':
+    resolution: {tarball: https://pkg.pr.new/teidesu/fuman/@fuman/node@a3f52dc}
+    version: 0.0.1
 
-  '@fuman/utils@0.0.1':
-    resolution: {integrity: sha512-OJxfzheaRw1+EY4hAv1IyjyorGW+V9MmiH7JRXZTcCzIJ/gxWPLGRu2nSFuRgQVD/bzziV0iuggnI+gYZlydkQ==}
+  '@fuman/utils@https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc':
+    resolution: {tarball: https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc}
+    version: 0.0.1
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -370,32 +374,32 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@mtcute/core@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-mQpj5ReEjfnHJ86N1PDzvWrmT5j9e+7e82AIOl+uEYIniKog+xJFDCe6GH7tH2IayuR1OqWTqyHmu18He4jtsg==}
+  '@mtcute/core@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-kYgxKv6lWWAsgGMl6kFnOqU9vaNwo7zilOqQ5ClnIU4bVdHVLo+Hq7zn117W42XoceeZY0XBpVrWH2Irj2Mi9Q==}
 
-  '@mtcute/dispatcher@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-4zA92F0/HqIzE8ZyXGK0JkMIHjxdpGAP2ON57ll3QuEd1I+7TgW/K8dxG11y48uxH8QP9DNJlGem5LRE8IMQUw==}
+  '@mtcute/dispatcher@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-jD+bctV23c15Tu9BUdNRZQNE86x5lM4/k0Kj3XEc0oRFgaBUvOPRx0L2NkMoaKQYspUUn7Fy4bKUI1kQ/C1Z0Q==}
 
-  '@mtcute/file-id@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-QJDu6cNRxe6uUe3gFWhTQkvhmAAWsobaC7NM8IfqtyVqjFFqa54v3sj2HKQv41D2TwqP9f3quoCR1Xj0nT61cQ==}
+  '@mtcute/file-id@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-3magdbwxB5SlmH7c7NmoZfJi7xaJcoJtVX/T7m/9TxfmpOJniIWwRfcvcXlS+46BPa1nsy8VfURvHD/sWNVvBA==}
 
-  '@mtcute/html-parser@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-1gmZy3grvRPXl0HIuhU7m+deXjFsnlsXB0cqUWMNVCP+gCzGW6ElJ1Hs8r/P0tc2rgIbv6OEw/tJIhc9q9OAMA==}
+  '@mtcute/html-parser@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-e3jYsweEa6jqJHf5u5IlgZwkmzseTA4nXSUeOtBdiRkL5lX79LFWsKhSNDO9GDcIk13joVo3JNgjOI/A4o8Ryg==}
 
-  '@mtcute/markdown-parser@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-zUkH46pR4dOV/7gmWussemIWSf7GzagDtbH69eutN4TEZr2jWpjnT0FpXDJM4do+0eKmtOFKZ2QQ0DRN4PJliw==}
+  '@mtcute/markdown-parser@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-l6l0e2LfzabxyCOIqmSibqXjX7k5yqDAA5nP0NwDhSypKrpIsjI3FENJmeFxS3Z2n1Z0fQezyjFCjvqgSP3emg==}
 
-  '@mtcute/node@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-kUfeu1eEP6nr+74Il62Z/yM6ewfs3Df/nUEx0NYAPAJ4n3xp8uPYxlp/RY8Pu3VVvR6yojCTvIMsaSGU8cRvrA==}
+  '@mtcute/node@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-Bpd5Uio2bYn0j2LmzY+IOOwYMGMDeok5dSoEhxeW4jqBA2egBLwS+owgxU/0bSut3Hrd+tQ4VH475kbFejX1sQ==}
 
-  '@mtcute/tl-runtime@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-5an8rNUZnbWD/WBqwr1PUcJuhElMYt0gxmDvGsaLn1fFV1jxQb/7Wv+mJhLLwiFC2cXV/d8tgshK1jq8NffCxA==}
+  '@mtcute/tl-runtime@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-rW9iu4Ej6XuUyxEQ0OWvFS53Vodb1CapRV5ysuHhjWdIUtlcr011QgqO7VzuYXH+7hbDHVfn2hlXYBxgGhZ1vg==}
 
-  '@mtcute/tl@187.0.0':
-    resolution: {integrity: sha512-e9JzviTc+TQbelXcQdpHVewgHDFuTc5MhIoh3ZL0BGFqXhOAkl09irrBFF7SZS+oy6R+hqS13s64j5TSNklMrQ==}
+  '@mtcute/tl@194.0.0':
+    resolution: {integrity: sha512-IOQbVVlk486nNHJrDMBUnVY3UZ7Lyb9UOBq+amV0LLdrCnbctGrxjzW2A2F3+ZeKJ1WcsNpTu8Zk5/1KNyRJjw==}
 
-  '@mtcute/wasm@0.17.0-fuman-alpha.6':
-    resolution: {integrity: sha512-ASPWXztSTWAMolO5UD8HjbsRgYkH5viIOt7A2id8VU9iRTDnWsdizc7Mv98i9AfuOdqNbIo8cvBPsQxE45OqAg==}
+  '@mtcute/wasm@0.17.0-fuman-alpha.8':
+    resolution: {integrity: sha512-ThOrsRGqIlUdLNGEymxt/mQ6UnnBmB/BQdkt3Nsxmtklyg1kVp1YfVS66E777m7bOqR8CVkxreLY+D1hiXjTkA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2212,22 +2216,22 @@ snapshots:
 
   '@eslint/js@9.8.0': {}
 
-  '@fuman/io@0.0.1':
+  '@fuman/io@https://pkg.pr.new/teidesu/fuman/@fuman/io@a3f52dc':
     dependencies:
-      '@fuman/utils': 0.0.1
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
 
-  '@fuman/net@0.0.1':
+  '@fuman/net@https://pkg.pr.new/teidesu/fuman/@fuman/net@a3f52dc':
     dependencies:
-      '@fuman/io': 0.0.1
-      '@fuman/utils': 0.0.1
+      '@fuman/io': https://pkg.pr.new/teidesu/fuman/@fuman/io@a3f52dc
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
 
-  '@fuman/node@0.0.1':
+  '@fuman/node@https://pkg.pr.new/teidesu/fuman/@fuman/node@a3f52dc':
     dependencies:
-      '@fuman/io': 0.0.1
-      '@fuman/net': 0.0.1
-      '@fuman/utils': 0.0.1
+      '@fuman/io': https://pkg.pr.new/teidesu/fuman/@fuman/io@a3f52dc
+      '@fuman/net': https://pkg.pr.new/teidesu/fuman/@fuman/net@a3f52dc
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
 
-  '@fuman/utils@0.0.1': {}
+  '@fuman/utils@https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc': {}
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
@@ -2241,62 +2245,62 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@mtcute/core@0.17.0-fuman-alpha.6':
+  '@mtcute/core@0.17.0-fuman-alpha.8':
     dependencies:
-      '@fuman/io': 0.0.1
-      '@fuman/net': 0.0.1
-      '@fuman/utils': 0.0.1
-      '@mtcute/file-id': 0.17.0-fuman-alpha.6
-      '@mtcute/tl': 187.0.0
-      '@mtcute/tl-runtime': 0.17.0-fuman-alpha.6
+      '@fuman/io': https://pkg.pr.new/teidesu/fuman/@fuman/io@a3f52dc
+      '@fuman/net': https://pkg.pr.new/teidesu/fuman/@fuman/net@a3f52dc
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
+      '@mtcute/file-id': 0.17.0-fuman-alpha.8
+      '@mtcute/tl': 194.0.0
+      '@mtcute/tl-runtime': 0.17.0-fuman-alpha.8
       '@types/events': 3.0.0
       events: 3.2.0
       long: 5.2.3
 
-  '@mtcute/dispatcher@0.17.0-fuman-alpha.6':
+  '@mtcute/dispatcher@0.17.0-fuman-alpha.8':
     dependencies:
-      '@fuman/utils': 0.0.1
-      '@mtcute/core': 0.17.0-fuman-alpha.6
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
+      '@mtcute/core': 0.17.0-fuman-alpha.8
       events: 3.2.0
 
-  '@mtcute/file-id@0.17.0-fuman-alpha.6':
+  '@mtcute/file-id@0.17.0-fuman-alpha.8':
     dependencies:
-      '@fuman/utils': 0.0.1
-      '@mtcute/tl-runtime': 0.17.0-fuman-alpha.6
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
+      '@mtcute/tl-runtime': 0.17.0-fuman-alpha.8
       long: 5.2.3
 
-  '@mtcute/html-parser@0.17.0-fuman-alpha.6':
+  '@mtcute/html-parser@0.17.0-fuman-alpha.8':
     dependencies:
-      '@mtcute/core': 0.17.0-fuman-alpha.6
+      '@mtcute/core': 0.17.0-fuman-alpha.8
       htmlparser2: 6.1.0
       long: 5.2.3
 
-  '@mtcute/markdown-parser@0.17.0-fuman-alpha.6':
+  '@mtcute/markdown-parser@0.17.0-fuman-alpha.8':
     dependencies:
-      '@mtcute/core': 0.17.0-fuman-alpha.6
+      '@mtcute/core': 0.17.0-fuman-alpha.8
       long: 5.2.3
 
-  '@mtcute/node@0.17.0-fuman-alpha.6':
+  '@mtcute/node@0.17.0-fuman-alpha.8':
     dependencies:
-      '@fuman/net': 0.0.1
-      '@fuman/node': 0.0.1
-      '@fuman/utils': 0.0.1
-      '@mtcute/core': 0.17.0-fuman-alpha.6
-      '@mtcute/html-parser': 0.17.0-fuman-alpha.6
-      '@mtcute/markdown-parser': 0.17.0-fuman-alpha.6
-      '@mtcute/wasm': 0.17.0-fuman-alpha.6
+      '@fuman/net': https://pkg.pr.new/teidesu/fuman/@fuman/net@a3f52dc
+      '@fuman/node': https://pkg.pr.new/teidesu/fuman/@fuman/node@a3f52dc
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
+      '@mtcute/core': 0.17.0-fuman-alpha.8
+      '@mtcute/html-parser': 0.17.0-fuman-alpha.8
+      '@mtcute/markdown-parser': 0.17.0-fuman-alpha.8
+      '@mtcute/wasm': 0.17.0-fuman-alpha.8
       better-sqlite3: 11.3.0
 
-  '@mtcute/tl-runtime@0.17.0-fuman-alpha.6':
+  '@mtcute/tl-runtime@0.17.0-fuman-alpha.8':
     dependencies:
-      '@fuman/utils': 0.0.1
+      '@fuman/utils': https://pkg.pr.new/teidesu/fuman/@fuman/utils@a3f52dc
       long: 5.2.3
 
-  '@mtcute/tl@187.0.0':
+  '@mtcute/tl@194.0.0':
     dependencies:
       long: 5.2.3
 
-  '@mtcute/wasm@0.17.0-fuman-alpha.6': {}
+  '@mtcute/wasm@0.17.0-fuman-alpha.8': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
