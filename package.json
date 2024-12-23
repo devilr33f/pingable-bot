@@ -1,7 +1,7 @@
 {
   "name": "pingable-bot",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple userbot that listening for pings and notifies owner",
   "main": "./src/index.js",
   "author": {
@@ -22,34 +22,34 @@
     "commitlint": "commitlint --edit"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.8.0",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
     "@types/common-tags": "^1.8.4",
-    "@types/node": "^20.14.11",
-    "@typescript-eslint/eslint-plugin": "^7.16.1",
-    "@typescript-eslint/parser": "^7.16.1",
-    "eslint": "^8.57.0",
+    "@types/node": "^20.17.10",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-perfectionist": "^3.1.0",
-    "eslint-plugin-promise": "^6.5.1",
-    "globals": "^15.9.0",
-    "husky": "^9.1.1",
+    "eslint-plugin-perfectionist": "^3.9.1",
+    "eslint-plugin-promise": "^6.6.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
     "tsc-alias": "^1.8.10",
-    "tsx": "^4.16.2",
-    "typescript": "^5.5.3"
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@mtcute/dispatcher": "^0.18.0-rc.1",
-    "@mtcute/html-parser": "^0.18.0-rc.1",
-    "@mtcute/node": "^0.18.0-rc.1",
+    "@mtcute/dispatcher": "0.18.0-rc.6-coboldfix.1",
+    "@mtcute/html-parser": "0.18.0-rc.6-coboldfix.1",
+    "@mtcute/node": "0.18.0-rc.6-coboldfix.1",
     "common-tags": "^1.8.2",
     "cross-env": "^7.0.3",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "env-var": "^7.5.0",
-    "winston": "^3.13.1"
+    "winston": "^3.17.0"
   }
 }
