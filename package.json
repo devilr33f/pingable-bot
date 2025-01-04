@@ -27,7 +27,7 @@
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.17.0",
     "@types/common-tags": "^1.8.4",
-    "@types/node": "^20.17.10",
+    "@types/node": "^20.17.11",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.1",
@@ -43,9 +43,9 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@mtcute/dispatcher": "0.18.0-rc.6-coboldfix.1",
-    "@mtcute/html-parser": "0.18.0-rc.6-coboldfix.1",
-    "@mtcute/node": "0.18.0-rc.6-coboldfix.1",
+    "@mtcute/dispatcher": "0.19.1",
+    "@mtcute/html-parser": "0.19.0",
+    "@mtcute/node": "0.19.1",
     "common-tags": "^1.8.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
